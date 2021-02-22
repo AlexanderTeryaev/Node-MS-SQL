@@ -1,6 +1,6 @@
 # Install SQL SERVER to allow mixed authentication.
 
-# Configuring TCP/IP protocol in SQL SERVER
+## Configuring TCP/IP protocol in SQL SERVER
 
 1. Press (Windows key + R) and type compmgmt.msc in the box, and click Ok
 
@@ -18,12 +18,12 @@
 Make sure all the TCP Dynamic Ports are set to 0 except for IPAll TCP Dynamic Port. All the TCP ports should be set blank except for IPAll TCP port which needs to be set to 1433
 
 
-# Create a database in SQL SERVER (named 'node_test' here)
+## Create a database in SQL SERVER (named 'node_test' here)
 
-# Install packages
+## Install packages
 
      npm i
 
-# Run server
+## Run server
 
      node server.js
